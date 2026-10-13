@@ -130,18 +130,13 @@ I build web products with Next.js and TypeScript, and ship on Sui when the produ
 
 ## Activity
 
-<table>
-  <tr>
-    <td width="62%" align="center" valign="top">
-      <strong>Commit calendar</strong><br/>
-      <img src="./github-calendar.svg?v=2" width="100%" alt="Commit calendar for huanngdev" />
-    </td>
-    <td width="38%" align="center" valign="top">
-      <strong>Languages activity</strong><br/>
-      <img src="./github-languages.svg?v=2" width="100%" alt="Languages activity for huanngdev" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./github-calendar.svg?v=3" width="100%" alt="Commit calendar for huanngdev" />
+</p>
+
+<p align="center">
+  <img src="./github-languages.svg?v=3" width="72%" alt="Languages activity for huanngdev" />
+</p>
 
 <p align="center"><sub>Refreshed daily by <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a>.</sub></p>
 
