@@ -13,10 +13,10 @@
 
 <br/>
 
-<a href="https://www.huanngdev.site"><img src="https://img.shields.io/badge/PORTFOLIO-huanngdev.site-000000?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/huanngdev/"><img src="https://img.shields.io/badge/LINKEDIN-huanngdev-000000?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:huanngdev@gmail.com"><img src="https://img.shields.io/badge/EMAIL-huanngdev%40gmail.com-000000?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://x.com/huanngdev"><img src="https://img.shields.io/badge/X-%40huanngdev-000000?style=flat-square&logo=x&logoColor=white" alt="X" /></a>
+<a href="https://www.huanngdev.site"><img src="https://img.shields.io/badge/PORTFOLIO-huanngdev.site-3f3f46?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/huanngdev/"><img src="https://img.shields.io/badge/LINKEDIN-huanngdev-3f3f46?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:huanngdev@gmail.com"><img src="https://img.shields.io/badge/EMAIL-huanngdev%40gmail.com-3f3f46?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://x.com/huanngdev"><img src="https://img.shields.io/badge/X-%40huanngdev-3f3f46?style=flat-square&logo=x&logoColor=white" alt="X" /></a>
 
 </div>
 
@@ -27,6 +27,13 @@
 Hey, I'm **Huấn** (`huanngdev`) — a fullstack developer in **Ho Chi Minh City**.
 
 I build web products with Next.js and TypeScript, and ship on Sui when the product needs it. Freelance, open to full-time roles — remote, on-site, or hybrid.
+
+<p align="center">
+  <code><img height="22" alt="TypeScript" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>
+  <code><img height="22" alt="JavaScript" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
+  <code><img height="22" alt="React" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
+  <code><img height="22" alt="Node.js" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
+</p>
 
 <img src="./assets/section-divider.svg" width="100%" alt="" />
 
@@ -39,10 +46,10 @@ I build web products with Next.js and TypeScript, and ship on Sui when the produ
       <p><sub>On-chain form builder, live on Sui mainnet.</sub></p>
       <p>I owned the frontend: drag-and-drop forms, AI-assisted generation, Seal encryption, and Walrus storage. Walrus Session 2, Form Tooling.</p>
       <p>
-        <a href="https://github.com/UyLeQuoc/sui-walform"><img src="https://img.shields.io/badge/SOURCE-000000?style=flat-square&logo=github&logoColor=white" alt="WalForm source" /></a>
-        <a href="https://walform.wal.app"><img src="https://img.shields.io/badge/LIVE-000000?style=flat-square&logo=googlechrome&logoColor=white" alt="WalForm live" /></a>
-        <img src="https://img.shields.io/badge/Sui-000000?style=flat-square" alt="Sui" />
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+        <a href="https://github.com/UyLeQuoc/sui-walform"><img src="https://img.shields.io/badge/SOURCE-3f3f46?style=flat-square&logo=github&logoColor=white" alt="WalForm source" /></a>
+        <a href="https://walform.wal.app"><img src="https://img.shields.io/badge/LIVE-3f3f46?style=flat-square&logo=googlechrome&logoColor=white" alt="WalForm live" /></a>
+        <img src="https://img.shields.io/badge/Sui-3f3f46?style=flat-square" alt="Sui" />
+        <img src="https://img.shields.io/badge/Next.js-3f3f46?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
       </p>
     </td>
     <td width="50%" valign="top">
@@ -50,10 +57,10 @@ I build web products with Next.js and TypeScript, and ship on Sui when the produ
       <p><sub>Markdown files become graded quizzes.</sub></p>
       <p>Answers stay on the server. Attempts autosave. Analytics break results down by topic. MIT.</p>
       <p>
-        <a href="https://github.com/huanngdev/markq"><img src="https://img.shields.io/badge/SOURCE-000000?style=flat-square&logo=github&logoColor=white" alt="MarkQ source" /></a>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-        <img src="https://img.shields.io/badge/Drizzle-000000?style=flat-square" alt="Drizzle" />
-        <img src="https://img.shields.io/badge/SQLite-000000?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+        <a href="https://github.com/huanngdev/markq"><img src="https://img.shields.io/badge/SOURCE-3f3f46?style=flat-square&logo=github&logoColor=white" alt="MarkQ source" /></a>
+        <img src="https://img.shields.io/badge/Next.js-3f3f46?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/Drizzle-3f3f46?style=flat-square" alt="Drizzle" />
+        <img src="https://img.shields.io/badge/SQLite-3f3f46?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
       </p>
     </td>
   </tr>
@@ -63,10 +70,10 @@ I build web products with Next.js and TypeScript, and ship on Sui when the produ
       <p><sub>The site, plus a public component registry.</sub></p>
       <p>Tables, media players, and a block editor. The UI work is on the components page.</p>
       <p>
-        <a href="https://github.com/huanngdev/me"><img src="https://img.shields.io/badge/SOURCE-000000?style=flat-square&logo=github&logoColor=white" alt="Portfolio source" /></a>
-        <a href="https://www.huanngdev.site/components"><img src="https://img.shields.io/badge/COMPONENTS-000000?style=flat-square&logo=googlechrome&logoColor=white" alt="Components" /></a>
-        <img src="https://img.shields.io/badge/Tailwind-000000?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-        <img src="https://img.shields.io/badge/shadcn/ui-000000?style=flat-square" alt="shadcn/ui" />
+        <a href="https://github.com/huanngdev/me"><img src="https://img.shields.io/badge/SOURCE-3f3f46?style=flat-square&logo=github&logoColor=white" alt="Portfolio source" /></a>
+        <a href="https://www.huanngdev.site/components"><img src="https://img.shields.io/badge/COMPONENTS-3f3f46?style=flat-square&logo=googlechrome&logoColor=white" alt="Components" /></a>
+        <img src="https://img.shields.io/badge/Tailwind-3f3f46?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+        <img src="https://img.shields.io/badge/shadcn/ui-3f3f46?style=flat-square" alt="shadcn/ui" />
       </p>
     </td>
     <td width="50%" valign="top">
@@ -74,10 +81,10 @@ I build web products with Next.js and TypeScript, and ship on Sui when the produ
       <p><sub>Fullstack on a Web3 analytics product.</sub></p>
       <p>Shipped workspace API keys end to end, the Formo CLI, and an MCP server for project-scoped data.</p>
       <p>
-        <img src="https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-        <img src="https://img.shields.io/badge/Express-000000?style=flat-square" alt="Express" />
-        <img src="https://img.shields.io/badge/ClickHouse-000000?style=flat-square" alt="ClickHouse" />
+        <img src="https://img.shields.io/badge/TypeScript-3f3f46?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Next.js-3f3f46?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/Express-3f3f46?style=flat-square" alt="Express" />
+        <img src="https://img.shields.io/badge/ClickHouse-3f3f46?style=flat-square" alt="ClickHouse" />
       </p>
     </td>
   </tr>
@@ -91,45 +98,52 @@ I build web products with Next.js and TypeScript, and ship on Sui when the produ
   <tr>
     <td width="18%" valign="middle"><strong>FRONTEND</strong></td>
     <td width="82%" valign="middle">
-      <img src="https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=white" alt="React" />
-      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-      <img src="https://img.shields.io/badge/Tailwind_CSS-000000?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-      <img src="https://img.shields.io/badge/shadcn/ui-000000?style=flat-square" alt="shadcn/ui" />
+      <img src="https://img.shields.io/badge/TypeScript-3f3f46?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/React-3f3f46?style=flat-square&logo=react&logoColor=white" alt="React" />
+      <img src="https://img.shields.io/badge/Next.js-3f3f46?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+      <img src="https://img.shields.io/badge/Tailwind_CSS-3f3f46?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+      <img src="https://img.shields.io/badge/shadcn/ui-3f3f46?style=flat-square" alt="shadcn/ui" />
     </td>
   </tr>
   <tr>
     <td width="18%" valign="middle"><strong>BACKEND</strong></td>
     <td width="82%" valign="middle">
-      <img src="https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-      <img src="https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-      <img src="https://img.shields.io/badge/Drizzle-000000?style=flat-square" alt="Drizzle" />
-      <img src="https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-      <img src="https://img.shields.io/badge/GitHub_Actions-000000?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+      <img src="https://img.shields.io/badge/Node.js-3f3f46?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+      <img src="https://img.shields.io/badge/PostgreSQL-3f3f46?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+      <img src="https://img.shields.io/badge/Drizzle-3f3f46?style=flat-square" alt="Drizzle" />
+      <img src="https://img.shields.io/badge/Docker-3f3f46?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-3f3f46?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
     </td>
   </tr>
   <tr>
     <td width="18%" valign="middle"><strong>WEB3</strong></td>
     <td width="82%" valign="middle">
-      <img src="https://img.shields.io/badge/Sui-000000?style=flat-square" alt="Sui" />
-      <img src="https://img.shields.io/badge/Move-000000?style=flat-square" alt="Move" />
-      <img src="https://img.shields.io/badge/Walrus-000000?style=flat-square" alt="Walrus" />
-      <img src="https://img.shields.io/badge/Seal-000000?style=flat-square" alt="Seal" />
+      <img src="https://img.shields.io/badge/Sui-3f3f46?style=flat-square" alt="Sui" />
+      <img src="https://img.shields.io/badge/Move-3f3f46?style=flat-square" alt="Move" />
+      <img src="https://img.shields.io/badge/Walrus-3f3f46?style=flat-square" alt="Walrus" />
+      <img src="https://img.shields.io/badge/Seal-3f3f46?style=flat-square" alt="Seal" />
     </td>
   </tr>
 </table>
 
 <img src="./assets/section-divider.svg" width="100%" alt="" />
 
-## GitHub metrics
+## Activity
 
-<p align="center"><sub>Calendar, languages, and recent activity. Refreshed daily by <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a>.</sub></p>
+<table>
+  <tr>
+    <td width="62%" align="center" valign="top">
+      <strong>Commit calendar</strong><br/>
+      <img src="./github-calendar.svg" width="100%" alt="Commit calendar for huanngdev" />
+    </td>
+    <td width="38%" align="center" valign="top">
+      <strong>Languages activity</strong><br/>
+      <img src="./github-languages.svg" width="100%" alt="Languages activity for huanngdev" />
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <picture>
-    <img src="./github-metrics.svg" width="100%" alt="GitHub metrics for huanngdev" />
-  </picture>
-</p>
+<p align="center"><sub>Refreshed daily by <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a>.</sub></p>
 
 <div align="center">
   <sub>Ho Chi Minh City · open to full-time and freelance</sub>
