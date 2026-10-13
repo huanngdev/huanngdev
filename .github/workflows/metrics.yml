@@ -18,7 +18,7 @@ jobs:
           committer_message: "chore: update metrics [skip ci]"
           config_timezone: Asia/Ho_Chi_Minh
           config_display: columns
-          config_order: isocalendar, languages, activity
+          config_order: isocalendar, languages
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
@@ -26,10 +26,6 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_limit: 6
           plugin_languages_ignored: Markdown, HTML, CSS
-          plugin_activity: yes
-          plugin_activity_limit: 6
-          plugin_activity_days: 30
-          plugin_activity_filter: push, pr, review, release
           repositories_skipped: huanngdev
           plugins_errors_fatal: no
           retries: 2
