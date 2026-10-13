@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title">
+  <title id="title">GitHub metrics are rendering</title>
+  <rect width="1200" height="220" rx="12" fill="#09090b"/>
+  <text x="600" y="98" fill="#fafafa" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" text-anchor="middle">GitHub metrics</text>
+  <text x="600" y="132" fill="#a1a1aa" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" text-anchor="middle">Calendar, languages, and recent activity render on the next action run.</text>
+</svg>
