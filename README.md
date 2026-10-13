@@ -1,151 +1,67 @@
-<div align="center">
+# Ngô Gia Huấn
 
-<a href="https://github.com/huanngdev">
-  <img src="./assets/profile-header.svg" width="100%" alt="Ngô Gia Huấn — fullstack developer in Ho Chi Minh City" />
-</a>
+Fullstack developer in Ho Chi Minh City.
+[Portfolio](https://www.huanngdev.site) · [LinkedIn](https://www.linkedin.com/in/huanngdev/) · [Email](mailto:huanngdev@gmail.com)
 
-<br/>
+# Open Chess
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&pause=1600&color=E6EDF3&center=true&vCenter=true&width=760&height=32&lines=Fullstack+developer+in+Ho+Chi+Minh+City.;Next.js%2C+TypeScript%2C+and+Sui.;WalForm+-+Top+1%2C+Walrus+Session+2." />
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&pause=1600&color=1F2328&center=true&vCenter=true&width=760&height=32&lines=Fullstack+developer+in+Ho+Chi+Minh+City.;Next.js%2C+TypeScript%2C+and+Sui.;WalForm+-+Top+1%2C+Walrus+Session+2." alt="Fullstack developer in Ho Chi Minh City" />
-</picture>
+Anyone can play the next move. Click a square, then submit the issue. The board updates itself.
 
-<br/>
+It's your turn. Move a <!-- BEGIN TURN -->white<!-- END TURN --> piece.
 
-<a href="https://www.huanngdev.site"><img src="https://img.shields.io/badge/PORTFOLIO-huanngdev.site-3f3f46?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/huanngdev/"><img src="https://img.shields.io/badge/LINKEDIN-huanngdev-3f3f46?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:huanngdev@gmail.com"><img src="https://img.shields.io/badge/EMAIL-huanngdev%40gmail.com-3f3f46?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://x.com/huanngdev"><img src="https://img.shields.io/badge/X-%40huanngdev-3f3f46?style=flat-square&logo=x&logoColor=white" alt="X" /></a>
+<!-- BEGIN CHESS BOARD -->
+|   | A | B | C | D | E | F | G | H |   |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| **8** | <img src="img/black/rook.svg" width=50px> | <img src="img/black/knight.svg" width=50px> | <img src="img/black/bishop.svg" width=50px> | <img src="img/black/queen.svg" width=50px> | <img src="img/black/king.svg" width=50px> | <img src="img/black/bishop.svg" width=50px> | <img src="img/black/knight.svg" width=50px> | <img src="img/black/rook.svg" width=50px> | **8** |
+| **7** | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | **7** |
+| **6** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **6** |
+| **5** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **5** |
+| **4** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **4** |
+| **3** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **3** |
+| **2** | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | **2** |
+| **1** | <img src="img/white/rook.svg" width=50px> | <img src="img/white/knight.svg" width=50px> | <img src="img/white/bishop.svg" width=50px> | <img src="img/white/queen.svg" width=50px> | <img src="img/white/king.svg" width=50px> | <img src="img/white/bishop.svg" width=50px> | <img src="img/white/knight.svg" width=50px> | <img src="img/white/rook.svg" width=50px> | **1** |
+|   | **A** | **B** | **C** | **D** | **E** | **F** | **G** | **H** |   |
+<!-- END CHESS BOARD -->
 
-</div>
+**It's your turn. Pick a move.**
+<!-- BEGIN MOVES LIST -->
+|  FROM  | TO (Just click a link!) |
+| :----: | :---------------------- |
+| **A2** | [A3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A2+to+A3), [A4](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A2+to+A4) |
+| **B1** | [A3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B1+to+A3), [C3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B1+to+C3) |
+| **B2** | [B3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B2+to+B3), [B4](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B2+to+B4) |
+| **C2** | [C3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+C2+to+C3), [C4](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+C2+to+C4) |
+| **D2** | [D3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D2+to+D3), [D4](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D2+to+D4) |
+| **E2** | [E3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E2+to+E3), [E4](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E2+to+E4) |
+| **F2** | [F3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F2+to+F3), [F4](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F2+to+F4) |
+| **G1** | [F3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G1+to+F3), [H3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G1+to+H3) |
+| **G2** | [G3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G2+to+G3), [G4](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G2+to+G4) |
+| **H2** | [H3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+H2+to+H3), [H4](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+H2+to+H4) |
+<!-- END MOVES LIST -->
 
-<img src="./assets/section-divider.svg" width="100%" alt="" />
+#### How it works
 
-## About
+Clicking a move opens a GitHub issue. A [GitHub Action](https://github.com/huanngdev/huanngdev/actions) plays that move, updates this board, and closes the issue.
 
-Hey, I'm **Huấn** (`huanngdev`) — a fullstack developer in **Ho Chi Minh City**.
+Template: [marcizhu/readme-chess](https://github.com/marcizhu/readme-chess).
 
-I build web products with Next.js and TypeScript, and ship on Sui when the product needs it. Freelance, open to full-time roles — remote, on-site, or hybrid.
+<details>
+  <summary>Last 5 moves</summary>
+<!-- BEGIN LAST MOVES -->
 
-<p align="center">
-  <code><img height="22" alt="TypeScript" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>
-  <code><img height="22" alt="JavaScript" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-  <code><img height="22" alt="React" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
-  <code><img height="22" alt="Node.js" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
-</p>
+| Move | Author |
+| :--: | :----- |
+| `Start game` | [ @huanngdev](https://github.com/huanngdev) |
 
-<img src="./assets/section-divider.svg" width="100%" alt="" />
+<!-- END LAST MOVES -->
+</details>
 
-## Selected work
+<details>
+  <summary>Top 10 players</summary>
+<!-- BEGIN TOP MOVES -->
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <p><strong><a href="https://walform.wal.app">WalForm</a></strong> &nbsp; <code>TOP 1</code></p>
-      <p><sub>On-chain form builder, live on Sui mainnet.</sub></p>
-      <p>I owned the frontend: drag-and-drop forms, AI-assisted generation, Seal encryption, and Walrus storage. Walrus Session 2, Form Tooling.</p>
-      <p>
-        <a href="https://github.com/UyLeQuoc/sui-walform"><img src="https://img.shields.io/badge/SOURCE-3f3f46?style=flat-square&logo=github&logoColor=white" alt="WalForm source" /></a>
-        <a href="https://walform.wal.app"><img src="https://img.shields.io/badge/LIVE-3f3f46?style=flat-square&logo=googlechrome&logoColor=white" alt="WalForm live" /></a>
-        <img src="https://img.shields.io/badge/Sui-3f3f46?style=flat-square" alt="Sui" />
-        <img src="https://img.shields.io/badge/Next.js-3f3f46?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <p><strong><a href="https://github.com/huanngdev/markq">MarkQ</a></strong> &nbsp; <code>OPEN SOURCE</code></p>
-      <p><sub>Markdown files become graded quizzes.</sub></p>
-      <p>Answers stay on the server. Attempts autosave. Analytics break results down by topic. MIT.</p>
-      <p>
-        <a href="https://github.com/huanngdev/markq"><img src="https://img.shields.io/badge/SOURCE-3f3f46?style=flat-square&logo=github&logoColor=white" alt="MarkQ source" /></a>
-        <img src="https://img.shields.io/badge/Next.js-3f3f46?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-        <img src="https://img.shields.io/badge/Drizzle-3f3f46?style=flat-square" alt="Drizzle" />
-        <img src="https://img.shields.io/badge/SQLite-3f3f46?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <p><strong><a href="https://www.huanngdev.site">huanngdev.site</a></strong> &nbsp; <code>PORTFOLIO</code></p>
-      <p><sub>The site, plus a public component registry.</sub></p>
-      <p>Tables, media players, and a block editor. The UI work is on the components page.</p>
-      <p>
-        <a href="https://github.com/huanngdev/me"><img src="https://img.shields.io/badge/SOURCE-3f3f46?style=flat-square&logo=github&logoColor=white" alt="Portfolio source" /></a>
-        <a href="https://www.huanngdev.site/components"><img src="https://img.shields.io/badge/COMPONENTS-3f3f46?style=flat-square&logo=googlechrome&logoColor=white" alt="Components" /></a>
-        <img src="https://img.shields.io/badge/Tailwind-3f3f46?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-        <img src="https://img.shields.io/badge/shadcn/ui-3f3f46?style=flat-square" alt="shadcn/ui" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <p><strong>Formo</strong> &nbsp; <code>SEP 2025 – MAY 2026</code></p>
-      <p><sub>Fullstack on a Web3 analytics product.</sub></p>
-      <p>Shipped workspace API keys end to end, the Formo CLI, and an MCP server for project-scoped data.</p>
-      <p>
-        <img src="https://img.shields.io/badge/TypeScript-3f3f46?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/Next.js-3f3f46?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-        <img src="https://img.shields.io/badge/Express-3f3f46?style=flat-square" alt="Express" />
-        <img src="https://img.shields.io/badge/ClickHouse-3f3f46?style=flat-square" alt="ClickHouse" />
-      </p>
-    </td>
-  </tr>
-</table>
+| Total moves |  User  |
+| :---------: | :----- |
 
-<img src="./assets/section-divider.svg" width="100%" alt="" />
-
-## Stack
-
-<table width="100%">
-  <tr>
-    <td width="18%" valign="middle"><strong>FRONTEND</strong></td>
-    <td width="82%" valign="middle">
-      <img src="https://img.shields.io/badge/TypeScript-3f3f46?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/React-3f3f46?style=flat-square&logo=react&logoColor=white" alt="React" />
-      <img src="https://img.shields.io/badge/Next.js-3f3f46?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-      <img src="https://img.shields.io/badge/Tailwind_CSS-3f3f46?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-      <img src="https://img.shields.io/badge/shadcn/ui-3f3f46?style=flat-square" alt="shadcn/ui" />
-    </td>
-  </tr>
-  <tr>
-    <td width="18%" valign="middle"><strong>BACKEND</strong></td>
-    <td width="82%" valign="middle">
-      <img src="https://img.shields.io/badge/Node.js-3f3f46?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-      <img src="https://img.shields.io/badge/PostgreSQL-3f3f46?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-      <img src="https://img.shields.io/badge/Drizzle-3f3f46?style=flat-square" alt="Drizzle" />
-      <img src="https://img.shields.io/badge/Docker-3f3f46?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-      <img src="https://img.shields.io/badge/GitHub_Actions-3f3f46?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-    </td>
-  </tr>
-  <tr>
-    <td width="18%" valign="middle"><strong>WEB3</strong></td>
-    <td width="82%" valign="middle">
-      <img src="https://img.shields.io/badge/Sui-3f3f46?style=flat-square" alt="Sui" />
-      <img src="https://img.shields.io/badge/Move-3f3f46?style=flat-square" alt="Move" />
-      <img src="https://img.shields.io/badge/Walrus-3f3f46?style=flat-square" alt="Walrus" />
-      <img src="https://img.shields.io/badge/Seal-3f3f46?style=flat-square" alt="Seal" />
-    </td>
-  </tr>
-</table>
-
-<img src="./assets/section-divider.svg" width="100%" alt="" />
-
-## Activity
-
-<p align="center">
-  <img src="./github-calendar.svg?v=3" width="100%" alt="Commit calendar for huanngdev" />
-</p>
-
-<p align="center">
-  <img src="./github-languages.svg?v=3" width="72%" alt="Languages activity for huanngdev" />
-</p>
-
-<p align="center"><sub>Refreshed daily by <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a>.</sub></p>
-
-<div align="center">
-  <sub>Ho Chi Minh City · open to full-time and freelance</sub>
-  <br/><br/>
-  <a href="mailto:huanngdev@gmail.com">Email</a>
-  &nbsp;&middot;&nbsp;
-  <a href="https://www.huanngdev.site">Portfolio</a>
-  &nbsp;&middot;&nbsp;
-  <a href="https://www.linkedin.com/in/huanngdev/">LinkedIn</a>
-</div>
+<!-- END TOP MOVES -->
+</details>
