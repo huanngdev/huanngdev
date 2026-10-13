@@ -21,6 +21,14 @@ jobs:
           base: ""
           plugin_calendar: yes
           plugin_calendar_limit: 1
+          extras_js: |
+            document.querySelectorAll("h2").forEach((node) => {
+              node.innerHTML = node.innerHTML.replace("Contributions calendar", "Commit calendar");
+            });
+          extras_css: |
+            svg { color: #e6edf3; background: #161b22; }
+            h2 { color: #c4b5fd !important; }
+            .field svg { fill: #a1a1aa; }
           plugins_errors_fatal: no
           retries: 2
           retries_delay: 60
@@ -35,10 +43,18 @@ jobs:
           committer_message: "chore: update languages activity [skip ci]"
           base: ""
           plugin_languages: yes
+          extras_js: |
+            document.querySelectorAll("h2").forEach((node) => {
+              if (node.textContent.includes("Languages")) node.innerHTML = "Languages activity";
+            });
           plugin_languages_details: percentage
           plugin_languages_limit: 6
           plugin_languages_ignored: Markdown, HTML, CSS
           repositories_skipped: huanngdev
+          extras_css: |
+            svg { color: #e6edf3; background: #161b22; }
+            h2 { color: #c4b5fd !important; }
+            .field svg { fill: #a1a1aa; }
           plugins_errors_fatal: no
           retries: 2
           retries_delay: 60
