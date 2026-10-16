@@ -1,67 +1,105 @@
-# Ngô Gia Huấn
+<div align="center">
 
-Fullstack developer in Ho Chi Minh City.
-[Portfolio](https://www.huanngdev.site) · [LinkedIn](https://www.linkedin.com/in/huanngdev/) · [Email](mailto:huanngdev@gmail.com)
+<img src="assets/header.svg" alt="Ngô Gia Huấn — Fullstack Developer" width="100%"/>
 
-# Open Chess
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=A78BFA&center=true&vCenter=true&width=620&lines=Throughout+Heaven+and+Earth%2C+I+alone+ship+to+prod;Fullstack+dev+%E2%80%94+Next.js+%2B+TypeScript;Building+on+Sui+%26+Walrus;Domain+Expansion%3A+Infinite+Commits" alt="Typing intro"/>
+</a>
 
-Anyone can play the next move. Click a square, then submit the issue. The board updates itself.
+<p>
+  <a href="https://www.huanngdev.site"><img src="https://img.shields.io/badge/Portfolio-huanngdev.site-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/huanngdev/"><img src="https://img.shields.io/badge/LinkedIn-huanngdev-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:huanngdev@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hi-38bdf8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://steamcommunity.com/profiles/76561199208466836/"><img src="https://img.shields.io/badge/Steam-Add_me-171a21?style=for-the-badge&logo=steam&logoColor=white" alt="Steam"/></a>
+</p>
 
-It's your turn. Move a <!-- BEGIN TURN -->white<!-- END TURN --> piece.
+<img src="https://komarev.com/ghpvc/?username=huanngdev&label=Profile%20views&color=7c3aed&style=flat" alt="Profile views"/>
 
-<!-- BEGIN CHESS BOARD -->
-|   | A | B | C | D | E | F | G | H |   |
-|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| **8** | <img src="img/black/rook.svg" width=50px> | <img src="img/black/knight.svg" width=50px> | <img src="img/black/bishop.svg" width=50px> | <img src="img/black/queen.svg" width=50px> | <img src="img/black/king.svg" width=50px> | <img src="img/black/bishop.svg" width=50px> | <img src="img/black/knight.svg" width=50px> | <img src="img/black/rook.svg" width=50px> | **8** |
-| **7** | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | <img src="img/black/pawn.svg" width=50px> | **7** |
-| **6** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **6** |
-| **5** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **5** |
-| **4** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **4** |
-| **3** | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | <img src="img/blank.png" width=50px> | **3** |
-| **2** | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | <img src="img/white/pawn.svg" width=50px> | **2** |
-| **1** | <img src="img/white/rook.svg" width=50px> | <img src="img/white/knight.svg" width=50px> | <img src="img/white/bishop.svg" width=50px> | <img src="img/white/queen.svg" width=50px> | <img src="img/white/king.svg" width=50px> | <img src="img/white/bishop.svg" width=50px> | <img src="img/white/knight.svg" width=50px> | <img src="img/white/rook.svg" width=50px> | **1** |
-|   | **A** | **B** | **C** | **D** | **E** | **F** | **G** | **H** |   |
-<!-- END CHESS BOARD -->
+</div>
 
-**It's your turn. Pick a move.**
-<!-- BEGIN MOVES LIST -->
-|  FROM  | TO (Just click a link!) |
-| :----: | :---------------------- |
-| **A2** | [A3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A2+to+A3), [A4](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A2+to+A4) |
-| **B1** | [A3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B1+to+A3), [C3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B1+to+C3) |
-| **B2** | [B3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B2+to+B3), [B4](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B2+to+B4) |
-| **C2** | [C3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+C2+to+C3), [C4](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+C2+to+C4) |
-| **D2** | [D3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D2+to+D3), [D4](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D2+to+D4) |
-| **E2** | [E3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E2+to+E3), [E4](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E2+to+E4) |
-| **F2** | [F3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F2+to+F3), [F4](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F2+to+F4) |
-| **G1** | [F3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G1+to+F3), [H3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G1+to+H3) |
-| **G2** | [G3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G2+to+G3), [G4](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G2+to+G4) |
-| **H2** | [H3](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+H2+to+H3), [H4](https://github.com/huanngdev/huanngdev/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+H2+to+H4) |
-<!-- END MOVES LIST -->
+## 👁️ About me
 
-#### How it works
+<table>
+<tr>
+<td width="58%" valign="top">
 
-Clicking a move opens a GitHub issue. A [GitHub Action](https://github.com/huanngdev/huanngdev/actions) plays that move, updates this board, and closes the issue.
+```ts
+const huan = {
+  role: "Fullstack Developer",
+  location: "Ho Chi Minh City, Vietnam 🇻🇳",
+  stack: ["Next.js", "TypeScript", "Node.js", "PostgreSQL"],
+  web3: ["Sui", "Move", "Walrus"],
+  learning: ["System design", "Cybersecurity"],
+  hobbies: ["Gaming 🎮", "Anime 🌀"],
+  motto: "Ship fast, refactor with Infinity.",
+};
+```
 
-Template: [marcizhu/readme-chess](https://github.com/marcizhu/readme-chess).
+- 🔭 Building full-stack products end to end, from DB schema to pixel
+- 🌱 Currently exploring on-chain apps with **Sui** & **Walrus**
+- 💬 Ask me about **Next.js**, **TypeScript**, **Postgres + Drizzle**
+- ⚡ Fun fact: my code has *Infinity* — bugs just never reach it (mostly)
 
-<details>
-  <summary>Last 5 moves</summary>
-<!-- BEGIN LAST MOVES -->
+</td>
+<td width="42%" align="center" valign="middle">
+  <img src="assets/gojo.gif" alt="Gojo Satoru waving" width="100%"/>
+  <br/><sub><i>“Don't worry, I'm the strongest.”</i></sub>
+</td>
+</tr>
+</table>
 
-| Move | Author |
-| :--: | :----- |
-| `Start game` | [ @huanngdev](https://github.com/huanngdev) |
+## 🛠️ Tech stack
 
-<!-- END LAST MOVES -->
-</details>
+<div align="center">
 
-<details>
-  <summary>Top 10 players</summary>
-<!-- BEGIN TOP MOVES -->
+<img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,nodejs,bun&theme=dark" alt="Frontend and runtime"/>
+<br/>
+<img src="https://skillicons.dev/icons?i=postgres,redis,docker,vercel,git,github,linux&theme=dark" alt="Backend and tooling"/>
 
-| Total moves |  User  |
-| :---------: | :----- |
+</div>
 
-<!-- END TOP MOVES -->
-</details>
+## 📊 GitHub stats
+
+<div align="center">
+
+<img src="profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Contribution chart" width="100%"/>
+
+<img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per language" height="170"/>
+<img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most commit language" height="170"/>
+
+<img src="profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats" height="170"/>
+<img src="profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive time" height="170"/>
+
+<img src="https://streak-stats.demolab.com?user=huanngdev&theme=tokyonight&hide_border=true&background=1A1B27&ring=A78BFA&fire=38BDF8&currStreakLabel=A78BFA&date_format=j%20M%5B%20Y%5D" alt="GitHub streak" width="100%"/>
+
+</div>
+
+## 🎮 Off the clock
+
+<div align="center">
+
+<a href="https://steamcommunity.com/profiles/76561199208466836/">
+  <img src="assets/steam-card.svg" alt="Steam profile and recently played games" width="100%"/>
+</a>
+
+<sub>Refreshed daily from my public Steam profile by a GitHub Action.</sub>
+
+</div>
+
+## 🐍 Contribution snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/huanngdev/huanngdev/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/huanngdev/huanngdev/output/github-snake.svg"/>
+  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/huanngdev/huanngdev/output/github-snake.svg" width="100%"/>
+</picture>
+
+</div>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,50:7c3aed,100:e11d48&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=26&fontColor=ffffff&fontAlignY=72&animation=twinkling" alt="Footer" width="100%"/>
+
+</div>

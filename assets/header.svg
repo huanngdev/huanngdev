@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Ngô Gia Huấn — huanngdev</title>
+  <desc id="desc">Animated banner: Ngô Gia Huấn, fullstack developer, with an Infinite Void inspired starfield.</desc>
+  <defs>
+    <radialGradient id="void" cx="78%" cy="50%" r="75%">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset=".45" stop-color="#0b0a1f"/>
+      <stop offset="1" stop-color="#05050d"/>
+    </radialGradient>
+    <radialGradient id="blue" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset=".35" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="red" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ffe4e6"/>
+      <stop offset=".35" stop-color="#f43f5e"/>
+      <stop offset="1" stop-color="#e11d48" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="purple" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#faf5ff"/>
+      <stop offset=".3" stop-color="#c084fc"/>
+      <stop offset=".7" stop-color="#7c3aed" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset=".35" stop-color="#7dd3fc"/>
+      <stop offset=".65" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#e0f2fe"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect width="1200" height="300" rx="16"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .star { fill: #fff; animation: twinkle 3s ease-in-out infinite; }
+    .s2 { animation-delay: .8s; } .s3 { animation-delay: 1.6s; } .s4 { animation-delay: 2.3s; }
+    .ring { fill: none; stroke-width: 1; transform-origin: 940px 150px; }
+    .r1 { stroke: #38bdf8; stroke-opacity: .35; animation: spin 24s linear infinite; }
+    .r2 { stroke: #a78bfa; stroke-opacity: .3; animation: spin 36s linear infinite reverse; }
+    .r3 { stroke: #e0f2fe; stroke-opacity: .15; animation: spin 60s linear infinite; }
+    .orbit-b { animation: orbitB 6s ease-in-out infinite; }
+    .orbit-r { animation: orbitR 6s ease-in-out infinite; }
+    .hollow { transform-origin: 940px 150px; animation: hollow 6s ease-in-out infinite; }
+    .rise { animation: rise .9s ease-out backwards; }
+    .d1 { animation-delay: .15s; } .d2 { animation-delay: .35s; } .d3 { animation-delay: .55s; }
+    @keyframes twinkle { 0%, 100% { opacity: .15; } 50% { opacity: 1; } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes orbitB { 0%, 100% { transform: translate(-90px, 0); opacity: 1; } 45%, 55% { transform: translate(0, 0); opacity: 0; } }
+    @keyframes orbitR { 0%, 100% { transform: translate(90px, 0); opacity: 1; } 45%, 55% { transform: translate(0, 0); opacity: 0; } }
+    @keyframes hollow { 0%, 35%, 70%, 100% { transform: scale(.2); opacity: 0; } 50% { transform: scale(1.15); opacity: 1; } 60% { transform: scale(1); opacity: .9; } }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) {
+      .star, .ring, .orbit-b, .orbit-r, .hollow, .rise { animation: none; opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="300" fill="url(#void)"/>
+
+    <!-- starfield -->
+    <g>
+      <circle class="star" cx="60" cy="40" r="1.2"/><circle class="star s2" cx="140" cy="250" r="1"/>
+      <circle class="star s3" cx="230" cy="70" r="1.4"/><circle class="star s4" cx="320" cy="270" r="1"/>
+      <circle class="star s2" cx="410" cy="30" r="1.1"/><circle class="star" cx="500" cy="255" r="1.3"/>
+      <circle class="star s3" cx="590" cy="50" r="1"/><circle class="star s4" cx="660" cy="230" r="1.5"/>
+      <circle class="star" cx="720" cy="35" r="1"/><circle class="star s2" cx="780" cy="270" r="1.2"/>
+      <circle class="star s3" cx="830" cy="60" r="1.6"/><circle class="star s4" cx="1060" cy="40" r="1.1"/>
+      <circle class="star" cx="1120" cy="250" r="1.4"/><circle class="star s2" cx="1160" cy="110" r="1"/>
+      <circle class="star s3" cx="1010" cy="270" r="1"/><circle class="star s4" cx="870" cy="190" r="1"/>
+      <circle class="star" cx="35" cy="160" r="1"/><circle class="star s3" cx="560" cy="150" r="1"/>
+      <circle class="star s2" cx="1180" cy="20" r="1.2"/><circle class="star s4" cx="270" cy="160" r="1"/>
+    </g>
+
+    <!-- infinity rings -->
+    <circle class="ring r1" cx="940" cy="150" r="70" stroke-dasharray="4 10"/>
+    <circle class="ring r2" cx="940" cy="150" r="105" stroke-dasharray="40 16 4 16"/>
+    <circle class="ring r3" cx="940" cy="150" r="140" stroke-dasharray="1 8"/>
+
+    <!-- blue + red = hollow purple -->
+    <g filter="url(#glow)">
+      <g class="orbit-b"><circle cx="940" cy="150" r="26" fill="url(#blue)"/></g>
+      <g class="orbit-r"><circle cx="940" cy="150" r="26" fill="url(#red)"/></g>
+      <circle class="hollow" cx="940" cy="150" r="60" fill="url(#purple)"/>
+    </g>
+    <text x="940" y="270" text-anchor="middle" class="mono" font-size="11" letter-spacing="4" fill="#a78bfa" fill-opacity=".7">領域展開 · 無量空処</text>
+
+    <!-- text -->
+    <g class="rise d1">
+      <text x="64" y="92" class="mono" font-size="14" letter-spacing="3" fill="#7dd3fc">// HELLO, WORLD — I'M</text>
+    </g>
+    <g class="rise d2">
+      <text x="62" y="160" font-size="58" font-weight="800" fill="url(#name)">Ngô Gia Huấn</text>
+    </g>
+    <g class="rise d3">
+      <rect x="64" y="182" width="420" height="1.5" fill="url(#rule)"/>
+      <text x="64" y="214" font-size="20" fill="#c7d2fe">Fullstack Developer · Ho Chi Minh City, VN</text>
+      <text x="64" y="244" class="mono" font-size="13" fill="#94a3b8">Next.js · TypeScript · Node · Postgres · Sui / Move</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="299" rx="16" fill="none" stroke="#a78bfa" stroke-opacity=".25"/>
+</svg>

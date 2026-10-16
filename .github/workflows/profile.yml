@@ -1,0 +1,72 @@
+name: Profile
+
+on:
+  schedule:
+    - cron: "0 17 * * *" # 00:00 Asia/Ho_Chi_Minh
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile.yml"
+      - "scripts/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile
+  cancel-in-progress: false
+
+jobs:
+  steam:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Render Steam card
+        run: python scripts/steam_card.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/steam-card.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update steam card [skip ci]"
+          git pull --rebase origin main
+          git push
+
+  summary-cards:
+    needs: steam
+    runs-on: ubuntu-latest
+    steps:
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          THEME: tokyonight
+          ANIMATION: rise
+          UTC_OFFSET: 7
+          EXCLUDE: HTML,CSS,Jupyter Notebook
+          EXCLUDE_REPOS: huanngdev
+
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?palette=github-light&color_snake=#7c3aed&color_dots=#ebedf0,#c7d2fe,#a5b4fc,#818cf8,#6366f1
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#c084fc&color_dots=#161b22,#1e3a5f,#1d6fa5,#38bdf8,#a78bfa
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: update snake [skip ci]"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
